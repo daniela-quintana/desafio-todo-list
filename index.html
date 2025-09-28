@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>To do List - Desafío 5</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>To do List</h1>
+            <p>Organiza tus tareas pendientes de manera eficiente</p>
+        </header>
+
+        <section class="summary">
+            <h2>Resumen de tareas</h2>
+            <div class="summary-item">
+                <span>Total de tareas:</span>
+                <span id="total-tasks" class="summary-value">0</span>
+            </div>
+            <div class="summary-item">
+                <span>Tareas completadas:</span>
+                <span id="completed-tasks" class="summary-value">0</span>
+            </div>
+            <div class="summary-item">
+                <span>Tareas pendientes:</span>
+                <span id="pending-tasks" class="summary-value">0</span>
+            </div>
+        </section>
+
+        <section class="tasks">
+            <h2>Lista de tareas</h2>
+            <div class="add-task">
+                <input type="text" id="task-input" placeholder="Escribe una nueva tarea">
+                <button id="add-task-btn">Agregar tarea</button>
+            </div>
+            <ul id="task-list" class="task-list">
+            </ul>
+        </section>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
